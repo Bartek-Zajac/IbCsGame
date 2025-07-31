@@ -15,10 +15,14 @@ const phaserConfig = {
 };
 
 function preload() {
-  // Placeholder for asset loading
+  // Load the background image from public/assets/map.jpg
+  this.load.image('background', 'assets/map.jpg');
 }
 
 function create() {
+  // Add the background image, positioned at the top-left corner
+  this.add.image(0, 0, 'background').setOrigin(0, 0);
+
   this.add.text(200, 250, 'Hello React + Phaser.js!', { font: '32px Arial', fill: '#fff' });
 }
 
