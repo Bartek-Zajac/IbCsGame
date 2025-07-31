@@ -1,0 +1,20 @@
+[
+  {
+    "room": "CPU",
+    "figure": "Von Neumann",
+    "image": "sprites/von_neumann.jpg",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "text": "What does CPU stand for?",
+        "options": ["Central Processing Unit", "Computer Power Unit", "Central Programming Utility"],
+        "answer": "Central Processing Unit"
+      },
+      {
+        "type": "short_answer",
+        "text": "Name a main function of the CPU.",
+        "answer": "processing instructions"
+      }
+    ]
+  }
+]
